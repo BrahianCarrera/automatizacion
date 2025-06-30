@@ -3,13 +3,11 @@ package co.com.udea.shopping_cart.questions;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
-import net.serenitybdd.screenplay.questions.Visibility; // Para verificar visibilidad
 
-import static co.com.udea.shopping_cart.userinterfaces.UserInterface.DASHBOARD_HEADER; // Usar el nuevo Target
+import static co.com.udea.shopping_cart.userinterfaces.LoginPage.DASHBOARD_HEADER; // Usar el nuevo Target
 
-public class LoginValidation implements Question<String> { // Implementa Question<String> directamente
+public class LoginValidation implements Question<String> {
 
-    // Constructor privado para el patrón singleton/instrumented
     private LoginValidation() {}
 
     @Override
@@ -18,7 +16,7 @@ public class LoginValidation implements Question<String> { // Implementa Questio
     }
 
     public static LoginValidation dashboardHeader() {
-        return new LoginValidation(); // Simplemente crea una nueva instancia
+        return new LoginValidation();
     }
 
 }

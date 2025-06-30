@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Login functionality" skipped="0" tests="1" time="0.42" timestamp="2025-06-29 07:33:01"><testcase name="Successful login with valid credentials to OrangeHRM"><error message="The actor usuario does not have the ability to browse the web" type="net.serenitybdd.screenplay.exceptions.ActorCannotBrowseTheWebException">The actor usuario does not have the ability to browse the web</error><system-err>The actor usuario does not have the ability to browse the web
-co.com.udea.shopping_cart.stepdefinitions.StepDefinition.userIsInTheLoginPage(StepDefinition.java:37)
+co.com.udea.shopping_cart.stepdefinitions.LoginStepDefinition.userIsInTheLoginPage(StepDefinition.java:37)
 worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </system-err></testcase></testsuite>

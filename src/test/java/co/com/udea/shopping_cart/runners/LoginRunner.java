@@ -10,4 +10,4 @@ import org.junit.runner.RunWith;
         glue = "co.com.udea.shopping_cart.stepdefinitions",
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
-public class SuccessfullLoginRunner {}
+public class LoginRunner {}

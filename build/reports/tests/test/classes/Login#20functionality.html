@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">1</div>
+<div class="counter">3</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">7.184s</div>
+<div class="counter">22.588s</div>
 <p>duration</p>
 </div>
 </td>
@@ -78,8 +78,18 @@
 </tr>
 </thead>
 <tr>
-<td class="success">Successful login with valid credentials to OrangeHRM</td>
-<td class="success">7.184s</td>
+<td class="success">Inicio de sesión exitoso con credenciales correctas</td>
+<td class="success">11.198s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Inicio de sesión fallido con credenciales incorrectas</td>
+<td class="success">5.330s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Recuperacion de contraseña</td>
+<td class="success">6.060s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -93,21 +103,65 @@
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
 
-Successful login with valid credentials to OrangeHRM(login-functionality;successful-login-with-valid-credentials-to-orangehrm)
+Inicio de sesión exitoso con credenciales correctas(login-functionality;inicio-de-sesión-exitoso-con-credenciales-correctas)
 --------------------------------------------------------------------------------
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Starting Chrome driver instance with capabilities:
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [start-maximized, incognito, start-maximized, incognito, remote-allow-origins=*, --start-maximized], extensions: []}}
-Jun 29, 2025 7:39:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 138
-Jun 29, 2025 7:39:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 138.0.7204.49. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+jun 29, 2025 11:50:00 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find CDP implementation matching 138
+jun 29, 2025 11:50:00 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+ADVERTENCIA: Unable to find version of CDP to use for 138.0.7204.49. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 [Test worker] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
    |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
 
-Successful login with valid credentials to OrangeHRM
+Inicio de sesión exitoso con credenciales correctas
+----------------------------------------------------------------------
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Inicio de sesión fallido con credenciales incorrectas(login-functionality;inicio-de-sesión-fallido-con-credenciales-incorrectas)
+--------------------------------------------------------------------------------
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Starting Chrome driver instance with capabilities:
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [start-maximized, incognito, start-maximized, incognito, remote-allow-origins=*, --start-maximized], extensions: []}}
+jun 29, 2025 11:50:10 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find CDP implementation matching 138
+jun 29, 2025 11:50:10 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+ADVERTENCIA: Unable to find version of CDP to use for 138.0.7204.49. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Inicio de sesión fallido con credenciales incorrectas
+----------------------------------------------------------------------
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Recuperacion de contraseña(login-functionality;recuperacion-de-contraseña)
+--------------------------------------------------------------------------------
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Starting Chrome driver instance with capabilities:
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [start-maximized, incognito, start-maximized, incognito, remote-allow-origins=*, --start-maximized], extensions: []}}
+jun 29, 2025 11:50:15 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find CDP implementation matching 138
+jun 29, 2025 11:50:15 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+ADVERTENCIA: Unable to find version of CDP to use for 138.0.7204.49. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Recuperacion de contraseña
 ----------------------------------------------------------------------
 </pre>
 </span>
@@ -120,7 +174,7 @@ Successful login with valid credentials to OrangeHRM
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="https://www.gradle.org">Gradle 8.13</a> at Jun 29, 2025, 7:39:13 PM</p>
+<a href="https://www.gradle.org">Gradle 8.13</a> at 29/06/2025, 11:50:21 p. m.</p>
 </div>
 </div>
 </body>

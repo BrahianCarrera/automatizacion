@@ -19,7 +19,7 @@ import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.GivenWhenThen.then;
 import static org.hamcrest.Matchers.equalTo;
 
-public class StepDefinition {
+public class LoginStepDefinition {
 
     @Managed(driver="chrome")
     public WebDriver driver;

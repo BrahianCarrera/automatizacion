@@ -3,7 +3,7 @@ package co.com.udea.shopping_cart.userinterfaces;
 import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
-public class UserInterface {
+public class LoginPage {
 
     public static final Target USERINPUT = Target.the("Username text input")
             .located(By.name("username"));
